@@ -1,0 +1,71 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image: url("../images/Background.png");
+}
+
+h1 {
+    border-bottom: 3px solid grey;
+    color: #4aaaa5;
+    margin-bottom: 5%;
+    padding-bottom: 1%;
+    font-size: 30px;
+}
+
+.mainContent {
+    width: 100%;
+    background-color: #fff;
+    padding: 0 0 15px 10px;
+}
+
+
+/*Specifies that size of linkedin stackoverflow and github pages.  Also centers */
+
+.logo {
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Adds padding to stackoveflow icon in contact me section*/
+div.text-center a:nth-child(2) {
+    padding: 0 5%;
+}
+
+
+/*Picture of myself on About me Page */
+
+img[alt="Profile Picture"] {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 5px 20px 0 10px;
+}
+
+
+
+
+.aboutMe {
+    text-indent: 3em;
+}
+
+.footer {
+    height: initial;
+    width: 100%;
+    background-color: #666666;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    padding: 20px 0 20px ;
+}
+
+
+
+/*Contact me page */
+.formPadding {
+	width: 98%;
+}
