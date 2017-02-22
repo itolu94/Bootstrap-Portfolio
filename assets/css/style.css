@@ -10,7 +10,7 @@ body {
 h1 {
     border-bottom: 3px solid grey;
     color: #4aaaa5;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     padding-bottom: 1%;
     font-size: 30px;
 }
@@ -46,7 +46,9 @@ img[alt="Profile Picture"] {
     margin: 5px 20px 0 10px;
 }
 
-
+.contentPadding {
+	margin-bottom: 10%;
+}
 
 
 .aboutMe {
@@ -58,9 +60,9 @@ img[alt="Profile Picture"] {
     width: 100%;
     background-color: #666666;
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     text-align: center;
-    padding: 20px 0 20px ;
+    padding: 20px 0 20px 0;
 }
 
 
