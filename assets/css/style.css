@@ -1,3 +1,5 @@
+
+
 html {
     position: relative;
     min-height: 100%;
@@ -5,18 +7,20 @@ html {
 
 body {
     background-image: url("../images/Background.png");
+    margin-bottom: 12%;
+    min-height: 100%;
 }
 
 h1 {
     border-bottom: 3px solid grey;
     color: #4aaaa5;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
     padding-bottom: 1%;
     font-size: 30px;
 }
 
 .mainContent {
-    width: 100%;
+   /* width: 100%;*/
     background-color: #fff;
     padding: 0 0 15px 10px;
 }
@@ -46,6 +50,8 @@ img[alt="Profile Picture"] {
     margin: 5px 20px 0 10px;
 }
 
+
+/*In the same div as container*/
 .contentPadding {
 	margin-bottom: 10%;
 }
@@ -58,11 +64,15 @@ img[alt="Profile Picture"] {
 .footer {
     height: initial;
     width: 100%;
-    background-color: #666666;
     position: absolute;
+    background-color: #666666;
     bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
     text-align: center;
     padding: 20px 0 20px 0;
+    clear: both;
 }
 
 
@@ -78,6 +88,7 @@ img[alt="Profile Picture"] {
 	padding: 20px 0;
 }
 
+/*Text that goes ontop of portfolio images*/
 .project {
 	position: absolute;
 	background-color: #4aaaa5;
@@ -88,6 +99,7 @@ img[alt="Profile Picture"] {
 	font-size: 20px;
 }
 
+/*div used for portfolio images.  Helps to place titles above img*/
 .portfolioDiv {
 	position: relative;
 	width: 200px;
